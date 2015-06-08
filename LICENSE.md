@@ -1,4 +1,5 @@
 The MIT License (MIT)
+=====================
 
 Copyright &copy; 2015 Niels Abildgaard &lt;<me@hypesystem.dk>&gt;
 

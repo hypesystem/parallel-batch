@@ -1,0 +1,28 @@
+{
+  "name": "parallel-batch",
+  "version": "0.1.0",
+  "description": "Batches big arrays, does stuff in parallel (per-batch), and lets you merge the results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hypesystem/parallel-batch"
+  },
+  "keywords": [
+    "parallel",
+    "async",
+    "batch"
+  ],
+  "author": "Niels Ablidgaard <me@hypesystem.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypesystem/parallel-batch/issues"
+  },
+  "homepage": "https://github.com/hypesystem/parallel-batch",
+  "dependencies": {
+    "async": "^1.2.1",
+    "lodash": "^3.9.3"
+  }
+}

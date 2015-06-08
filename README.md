@@ -38,7 +38,16 @@ parallelBatch(array, batchSize, iterator, callback);
 - **callback** (Function) is the final callback that is called when all the iterators have concluded.
   The callback takes two arguments: an error (which will be `null` if everything went as it should), and an array of results.
   There is one element in the result array per batch.
-  
+
+When should I use parallel-batch?
+---------------------------------
+
+In the example below, you'll see a good use case for this library: the API we are using has an artificial limit per request.
+
+You shouldn't use this library if you simply want to throttle your code, so it doesn't make too many requests at a time.
+Async has a much better built-in alternative for that, namely `parallelLimit`, `seriesLimit`, and `eachLimit`.
+These functions make sure that no more than the `limit` parallel requests are ongoing at the same time, a different use case from this library.
+
 Example: Batched requests
 -------------------------
 

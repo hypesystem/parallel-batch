@@ -4,7 +4,7 @@
   "description": "Batches big arrays, does stuff in parallel (per-batch), and lets you merge the results",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "dependencies": {
     "async": "^1.2.1",
     "lodash": "^3.9.3"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.1"
   }
 }

@@ -3,6 +3,9 @@ parallel-batch
 
 This tiny library builds on top of [async](https://github.com/caolan/async), to add easy batch-running.
 
+Please note the [license](LICENSE.md) when using this library.
+It's pretty free, and you're welcome to fork... but I always appreciate a pull request ;-)
+
 Installation
 ------------
 

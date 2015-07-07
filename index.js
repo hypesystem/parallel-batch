@@ -1,1 +1,1 @@
-module.exports = require("lib/parallel-batch.js");
+module.exports = require("./lib/parallel-batch.js");

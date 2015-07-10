@@ -1,6 +1,6 @@
 {
   "name": "parallel-batch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Batches big arrays, does stuff in parallel (per-batch), and lets you merge the results",
   "main": "index.js",
   "scripts": {
